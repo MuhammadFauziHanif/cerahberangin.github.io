@@ -1,11 +1,11 @@
 body {
     background-color: black;
     color: white;
+    text-align: center;
 }
 
 .peace {
     font-size: 5rem;
-    text-align: center;
     margin-bottom: 0;
     font-family: 'IBM Plex Sans Arabic', sans-serif;
     font-weight: bold;
@@ -13,13 +13,11 @@ body {
 
 .peace-translation {
     font-size: 3rem;
-    text-align: center;
     margin-top: 0;
     font-family: 'Public Sans', sans-serif;
     font-weight: bold;
 }
 
 .message {
-    text-align: center;
     font-family: 'Public Sans', sans-serif;
 }
