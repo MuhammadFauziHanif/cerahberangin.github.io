@@ -2,22 +2,26 @@ body {
     background-color: black;
     color: white;
     text-align: center;
+    font-family: 'Inter', sans-serif;
 }
 
-.peace {
-    font-size: 5rem;
-    margin-bottom: 0;
-    font-family: 'IBM Plex Sans Arabic', sans-serif;
-    font-weight: bold;
+img {
+    width: 70%;
 }
 
-.peace-translation {
-    font-size: 3rem;
-    margin-top: 0;
-    font-family: 'Public Sans', sans-serif;
-    font-weight: bold;
-}
-
-.message {
-    font-family: 'Public Sans', sans-serif;
+h1 {
+    background: 
+      radial-gradient(circle at 50% 0,
+        rgba(255,0,0,.5),
+        rgba(255,0,0,0) 70.71%),
+      radial-gradient(circle at 6.7% 75%,
+        rgba(0,0,255,.5),
+        rgba(0,0,255,0) 70.71%),
+      radial-gradient(circle at 93.3% 75%,
+        rgba(0,255,0,.5),
+        rgba(0,255,0,0) 70.71%) beige;
+    font-size: 4rem;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
