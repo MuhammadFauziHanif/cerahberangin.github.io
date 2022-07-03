@@ -1,27 +1,28 @@
 body {
-    background-color: black;
-    color: white;
-    text-align: center;
-    font-family: 'Inter', sans-serif;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
 }
 
 img {
-    width: 70%;
+  max-height: 80vh;
+  max-width: 100%;
 }
 
 h1 {
-    background: 
-      radial-gradient(circle at 50% 0,
-        rgba(255,0,0,.5),
-        rgba(255,0,0,0) 70.71%),
-      radial-gradient(circle at 6.7% 75%,
-        rgba(0,0,255,.5),
-        rgba(0,0,255,0) 70.71%),
-      radial-gradient(circle at 93.3% 75%,
-        rgba(0,255,0,.5),
-        rgba(0,255,0,0) 70.71%) beige;
-    font-size: 4rem;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background:
+    radial-gradient(circle at 50% 0,
+      rgba(255, 0, 0, .5),
+      rgba(255, 0, 0, 0) 70.71%),
+    radial-gradient(circle at 6.7% 75%,
+      rgba(0, 0, 255, .5),
+      rgba(0, 0, 255, 0) 70.71%),
+    radial-gradient(circle at 93.3% 75%,
+      rgba(0, 255, 0, .5),
+      rgba(0, 255, 0, 0) 70.71%) beige;
+  font-size: 4rem;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
