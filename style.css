@@ -21,7 +21,7 @@ h1 {
     radial-gradient(circle at 93.3% 75%,
       rgba(0, 255, 0, .5),
       rgba(0, 255, 0, 0) 70.71%) beige;
-  font-size: 4rem;
+  font-size: 90px;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
